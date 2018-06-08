@@ -1,0 +1,28 @@
+{
+  "name": "geojson-property-merge",
+  "version": "1.0.0",
+  "description": "Merge properties from a data set into the matching features of a GeoJSON object. This package can be used via the command line or inside your existing project.",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CivilServiceUSA/geojson-property-merge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CivilServiceUSA/geojson-property-merge/issues"
+  },
+  "bin": {
+    "geojson-property-merge": "./bin/geojson-property-merge.js"
+  },
+  "keywords": [
+    "GeoJSON",
+    "JSON",
+    "Maps",
+    "Mapbox",
+    "cli"
+  ],
+  "author": "John Kramlich <me@johnkramlich.com> (https://johnkramlich.com/)",
+  "license": "MIT"
+}
