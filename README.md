@@ -13,7 +13,7 @@ Merge properties from a data set into the matching features of a GeoJSON object.
 ## Installation
 
 ````
-$ npm install CivilServiceUSA/geojson-property-merge --save
+$ npm install -g civil-services-geojson-property-merge
 ````
 
 ## Command Line Usage:
@@ -23,7 +23,7 @@ The examples directory contains two files; `states.geojson` containing the borde
 `states.json` to the appropriate feature in the geojson file, omitting the properties "state" and "slug" from the output file.
 
 ````
-$ ./bin/geojson-property-merge.js --exclude state,slug --geojsonkey NAME --propertieskey state ./examples/states.geojson ./examples/states.json mergedOutput.geojson 
+$ geojson-property-merge --exclude state,slug --geojsonkey NAME --propertieskey state ./examples/states.geojson ./examples/states.json mergedOutput.geojson 
 ````
 
 

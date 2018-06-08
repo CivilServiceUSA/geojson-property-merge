@@ -1,5 +1,5 @@
 {
-  "name": "geojson-property-merge",
+  "name": "civil-services-geojson-property-merge",
   "version": "1.0.0",
   "description": "Merge properties from a data set into the matching features of a GeoJSON object. This package can be used via the command line or inside your existing project.",
   "main": "index.js",
